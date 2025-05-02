@@ -9,8 +9,4 @@ A simple static website built with [HTML/CSS/JavaScript] designed to [brief desc
 - **Static Pages**: Built with HTML, styled with CSS, and enhanced with JavaScript.
 - **Custom Styling**: Includes custom CSS for unique design elements.
   
-## How to Run Locally
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git

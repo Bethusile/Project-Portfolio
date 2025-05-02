@@ -1,0 +1,262 @@
+/* Root color variables */
+:root {
+    --pink-primary: #ff6b9e;
+    --pink-secondary: #ffd3e1;
+    --dark-bg: #1a1a1a;
+    --light-bg: #f8f9fa;
+    --dark-text: #212529;
+    --light-text: #f8f9fa;
+    --card-bg: #ffffff;
+    --border-color: #dee2e6;
+}
+
+/* Sticky Navbar */
+.navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays above other elements */
+}
+
+/* Pink text for "usile" */
+.text-pink {
+    color: #ff66b2 !important;
+    font-size: 1.5rem;
+}
+
+/* White text for "Bet" */
+.text-white {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Navbar Links Styling */
+.navbar-nav .nav-link {
+    font-size: 1rem; /* Set font size for the navbar items */
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link:hover {
+    color: #ff66b2; /* Change text color on hover */
+}
+/* Navbar brand style */
+.navbar-brand {
+    font-size: 5rem; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    letter-spacing: 6px; /* Add some spacing between letters */
+    /*text-transform: uppercase; /* Make text uppercase for a modern feel */
+    background: linear-gradient(to right, #ff6ec7, #ff00b0); /* Gradient from pink to a darker shade */
+    -webkit-background-clip: text; /* Use the gradient as text color */
+    color: transparent; /* Make the text color transparent to show the gradient */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a soft shadow to make it pop */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.bg-light {
+    color: var(--dark-text);
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--dark-bg) 0%, #333 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section .hero-content {
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+/* Hero Section Styling */
+#home {
+    position: relative; /* Ensure the content is placed over the video */
+    overflow: hidden;
+}
+
+/* Video background */
+#hero-video {
+    object-fit: cover; /* Ensure the video covers the entire section */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Put the video behind the content */
+}
+
+/* Dark Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Overlay should be above the video but below content */
+}
+
+/* Content (Text and Button) Styling */
+#home .container {
+    position: relative;
+    z-index: 3; /* Ensure the content is on top of the overlay */
+}
+
+/* Increase the size of your name */
+#hero-name {
+    font-size: 4rem; /* Increase the font size */
+}
+
+/* About Me and Journey */
+.about-section .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px solid #ff69b4; /* Pink outline */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: var(--card-bg);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    color: var(--dark-text);
+}
+
+.btn-outline-pink {
+    color: var(--pink-primary);
+    border-color: var(--pink-primary);
+    background-color: transparent;
+}
+
+.btn-outline-pink:hover {
+    background-color: var(--pink-primary);
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Make the items wrap to new rows */
+    justify-content: flex-start; /* Align items to the start */
+    gap: 10px; /* Space between items */
+}
+
+.skills-list li {
+    background-color: #ff66b2; /* Pink background */
+    color: white; /* White text */
+    padding: 8px 12px; /* Reduced padding for compactness */
+    margin: 0; /* Removed margin between blocks */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Smaller shadow */
+    font-size: 14px; /* Slightly smaller text */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Make it interactive */
+    border: 1px solid black; /* Pink outline */
+}
+
+.skills-list li:hover {
+    background-color: #ff3385; /* Darker pink on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+/* Tech Badge */
+.tech-badge {
+    background-color: steelblue; /* Black background */
+    border: 2px solid #ff69b4; /* Pink outline */
+    color: white; /* Text color */
+    padding: 6px 12px;
+    border-radius: 15px; /* Smooth corners */
+    font-size: 0.7rem;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-pink {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ff1493;
+}
+
+/* Sticky WhatsApp Icon */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+

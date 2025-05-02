@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethusile Mafumana | Portfolio</title>
+
+    <!-- Link to your custom CSS file -->
+    <link href="site.css" rel="stylesheet" />
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <span class="text-white">Bet</span><span class="text-pink">husile</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/"><i class="fas fa-home text-pink"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#my-journey">My Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/bethusile-mafumana-1996a289/" target="_blank"><i
+                                class="fab fa-linkedin text-pink"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Bethusile" target="_blank"><i
+                                class="fab fa-github text-pink"></i></a>
+                    </li>
+                </ul>
+            </div>
+ 
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="vh-100 d-flex align-items-center text-center bg-dark text-white position-relative">
+        <!-- Image Background -->
+        <div id="hero-image" class="position-absolute w-100 h-100 object-fit-cover"
+            style="background: url('images/bg1.jpg') center center / cover no-repeat;"></div>
+
+        <!-- Dark Overlay -->
+        <div class="overlay position-absolute w-100 h-100 bg-dark opacity-75"></div>
+
+        <!-- Content -->
+        <div class="container position-relative z-index-2">
+            <h1 class="display-3">Bethusile Mafumana</h1>
+            <p class="lead mt-3">Aspiring Full-Stack Developer | Cloud Engineer | Tech Enthusiast</p>
+            <a href="#about" class="btn btn-pink mt-4 text-white">Learn More</a>
+        </div>
+    </section>
+
+    
+<!-- About Me Section -->
+<section id="about" class="about-section py-5 bg-light">
+    <br /> <br /><br /> <br />
+    <div class="container">
+        <div class="row">
+            <!-- About Me Section -->
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>
+                    From balancing spreadsheets to building web applications, my journey from finance to tech has been rooted in problem-solving and growth. I bring precision, analytical thinking, and solution-driven focus to my work as an aspiring Full-Stack Developer and Cloud Engineer.
+                </p>
+                <p>
+                    The transition wasn’t easy - late nights, steep learning curves, and setbacks shaped my skills in coding, cloud infrastructure, and real-world application development.
+                </p>
+                <p>
+                    Today, I combine business insight with technical expertise to build scalable web apps, deploy cloud-based solutions, and bridge the gap between business and technology. I'm passionate about continuous learning and making an impact through innovation.
+                </p>
+            </div>
+            <br /> <br /><br />
+            <!-- Skills & Technologies Section -->
+            <div class="col-md-6">
+                <h2>Skills & Technologies</h2>
+                <br /> <br />
+                <ul class="skills-list">
+                    <li><strong>Java</strong></li>
+                    <li><strong>C#</strong></li>
+                    <li><strong>Python</strong></li>
+                    <li><strong>SQL Server</strong></li>
+                    <li><strong>AWS</strong></li>
+                    <li><strong>ASP.NET Core</strong></li>
+                    <li><strong>MVC</strong></li>
+                    <li><strong>CSS</strong></li>
+                    <li><strong>HTML</strong></li>
+                    <li><strong>Flask</strong></li>
+                    <li><strong>Cloud Infrastructure</strong></li>
+                    <li><strong>Data Analytics</strong></li>
+                    <li><strong>Javascript</strong></li>
+                    <li><strong>Agile Development</strong></li>
+                    <li><strong>Webforms</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section id="projects" class="projects-section py-5">
+    <br /> <br /><br /> <br />
+    <div class="container">
+        <h2 class="section-title text-center text-black">Featured Projects</h2>
+        <br />
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                    <img src="images/ab1.JPG" class="card-img-top" alt="Afro-Belle E-Commerce Web App">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Afro-Belle E-Commerce Web App</h5>
+                        <p class="card-text">Full-stack e-commerce solution using ASP.NET Core MVC, handling user authentication, payment simulation, and admin workflows.</p>
+
+                        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+                            <span class="tech-badge">ASP.NET Core MVC</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">SQL Server</span>
+                            <span class="tech-badge">Entity Framework</span>
+                        </div>
+
+                        <p><strong>Role:</strong> Project Lead, Full-Stack Developer</p>
+
+                        <a href="https://github.com/Bethusile/Afro-Belle-E-Commerce" class="btn btn-outline-pink mt-3" target="_blank" style="font-size: 1.8rem;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                    <img src="images/todo.jpg" class="card-img-top" alt="To-Do List Web App">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">To-Do List Web App (Flask, AWS)</h5>
+                        <p class="card-text">Scalable web application deployed on AWS Elastic Beanstalk with RDS database and IAM security. (in progress)</p>
+
+                        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+                            <span class="tech-badge">Flask</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">AWS RDS</span>
+                            <span class="tech-badge">AWS IAM</span>
+                        </div>
+
+                        <p><strong>Role:</strong>Project Lead, Full-Stack Developer & AWS DevOps</p>
+
+                        <a href="https://github.com/Bethusile/aws-flask-todo-app" class="btn btn-outline-pink mt-3" target="_blank" style="font-size: 1.8rem;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                    <img src="images/crm.jpg" class="card-img-top" alt="Java Project">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Java CRM Application</h5>
+                        <p class="card-text">Spearheading the development of a custom CRM system aimed at streamlining service task management for small businesses. 
+                            Recruited and led a team of two fellow developers focused on back-end functionality while overseeing the front-end implementation and AWS deployment.  (in progress)</p>
+
+                        <div class="d-flex flex-wrap justify-content-center gap-2 my-3">
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">SQL Server</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">HTML</span>
+                        </div>
+
+                        <p><strong>Role:</strong>Project Lead, Scrum Master, Front-end Developer & DevOps</p>
+
+                        <a href="https://github.com/Bethusile" class="btn btn-outline-pink mt-3" target="_blank" style="font-size: 1.8rem;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="https://github.com/Bethusile" class="btn btn-outline-pink">View More Projects on GitHub</a>
+        </div>
+    </div>
+</section>
+
+<!-- Modal with Carousel for Project 1 -->
+<div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModalLabel1">Afro-Belle E-Commerce Web App</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Carousel for Project 1 -->
+                <div id="projectCarousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="images/abproduct.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/ab1.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abhome.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="images/abmodal.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abcart.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abbilling.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abpaypal.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abcart2.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abshipping.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="images/abhome.JPG" class="d-block w-100" alt="Afro-Belle E-Commerce Web App">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal with Carousel for Project 2 -->
+<div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModalLabel2">To-Do List Web App</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Carousel for Project 2 -->
+                <div id="projectCarousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/todo.jpg" class="d-block w-100" alt="To-Do List Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/todo.jpg" class="d-block w-100" alt="To-Do List Web App">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/todo.jpg" class="d-block w-100" alt="To-Do List Web App">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal with Carousel for Project 3 -->
+<div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectModalLabel3">Java Project</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Carousel for Project 3 -->
+                <div id="projectCarousel3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/crm.jpg" class="d-block w-100" alt="Java Project">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/crm.jpg" class="d-block w-100" alt="Java Project">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/crm.jpg" class="d-block w-100" alt="Java Project">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- My Journey Section -->
+<section id="my-journey" class="py-5 bg-light">
+    <br /> <br /><br /> <br />
+    <div class="container">
+        <h2 class="section-title text-center text-black">My Journey</h2>
+        <br />
+        <!-- Tabs for Experience, Education, Certifications -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="journeyTab" role="tablist">
+            <li class="nav-item" role="presentation"></li>
+                <button class="nav-link text-black" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab">Education</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active text-black" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience" type="button" role="tab">Experience</button>
+            </li>
+            
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-black" id="certifications-tab" data-bs-toggle="tab" data-bs-target="#certifications" type="button" role="tab">Certifications</button>
+            </li>
+        </ul>
+
+        <!-- Tab content -->
+        <div class="tab-content" id="journeyTabContent">
+
+            <!-- Education -->
+            <div class="tab-pane fade" id="education" role="tabpanel">
+                <div class="card p-4 shadow border border-pink">
+                    <h5>BSc Computer Science (in progress)</h5>
+                    <p>Nelson Mandela University | 2025 Expected</p>
+                    <ul>
+                        <li>Object Oriented Programming | Advanced Data Structures | Advanced Programming | Web Systems</li>
+                        <li>Agile Development | Networks | Automata Theory | Information Systems | UI/UX Design | Databases | Web Systems</li>
+                    </ul>
+
+                    <h5 class="mt-4">BCom Accounting</h5>
+                    <p>Nelson Mandela University | 2016</p>
+                    <ul>
+                        <li>Accounting | Taxation | Auditing | Management Accounting | Cost Accounting</li>
+                    </ul>
+
+                    <h5 class="mt-4">Matric (Pure Mathematics and Physical Science)</h5>
+                    <p>77% Average with distinctions in Math and Science</p>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="tab-pane fade show active" id="experience" role="tabpanel">
+                <div class="card p-4 shadow border border-pink">
+                    <h5>Lecture & Lab Assistant - Nelson Mandela University</h5>
+                    <p>2024-2025 | Assisted students with programming labs, coursework, and assessments.</p>
+
+                    <h5 class="mt-4">Junior Accountant - TNJ Accountants</h5>
+                    <p>2022 | Financial data capturing, financial statements, tax returns, payroll submissions.</p>
+
+                    <h5 class="mt-4">Support Banker - FNB Private Clients</h5>
+                    <p>2019-2021 | Client support, account management, transactional assistance.</p>
+
+                    <h5 class="mt-4">Associate 1 - PwC</h5>
+                    <p>2018 | Audit support, financial controls testing, tax exposure.</p>
+
+                    <h5 class="mt-4">Service Consultant - Discovery</h5>
+                    <p>2017-2018 | Front-line client support, benefit claims processing, customer service excellence.</p>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="tab-pane fade" id="certifications" role="tabpanel">
+                <div class="card p-4 shadow border border-pink">
+                    <h5>Google Data Analytics Certification</h5>
+                    <p>Completed - <a href="https://www.coursera.org/account/accomplishments/professional-cert/FU6TGZYHKWAH?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" class="btn btn-outline-pink">Coursera</a></p>
+
+                    <h5 class="mt-4">IBM Python for Data Science, AI & Development</h5>
+                    <p>In Progress - Coursera</p>
+
+                    <h5 class="mt-4">Exam Prep Standard Course: AWS Certified Developer Associate</h5>
+                    <p>In Progress - AWS Skill Builder</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+ 
+
+<a href="https://wa.me/0738949483" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <p>Bethusile Mafumana &copy;2025.</p>
+        </div>
+    </footer>
+
+
+<!-- Other scripts like Bootstrap or EmailJS first -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your site.js file -->
+<script src="site.js"></script>
+
+
+</body>
+
+</html>
